@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#f2f2f2"
+              android:orientation="vertical"
+              android:padding="12dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="12dp"
+        android:text="Feeling getScrollX () and scrollBy ()"
+        android:textSize="18sp" />
+
+    <bonc.demopractice_allkinsoff.view.ScrollerLayout
+        android:id="@+id/scrollerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="#66889898"
+                android:text="Button"
+                android:textColor="#fff"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="#889898"
+                android:gravity="center"
+                android:text="TextView"
+                android:textColor="#fff"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_02"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#ff0000"
+            android:gravity="center"
+            android:text="This is second panel"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_03"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="#00ff00"
+            android:gravity="center"
+            android:text="This is third panel"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+    </bonc.demopractice_allkinsoff.view.ScrollerLayout>
+</LinearLayout>

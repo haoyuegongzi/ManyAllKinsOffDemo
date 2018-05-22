@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="bonc.demopractice_allkinsoff.adaptive.AdaptiveSizeActivity">
+
+    <bonc.demopractice_allkinsoff.adaptive.AdjustSpaceTextView
+        android:id="@+id/asTextView01"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#bbbbbb"
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:maxLines="1"/>
+
+    <bonc.demopractice_allkinsoff.adaptive.AdjustSpaceTextView
+        android:id="@+id/asTextView02"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:background="#bbbbbb"
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:maxLines="1"/>
+
+    <bonc.demopractice_allkinsoff.adaptive.AdjustSpaceTextView
+        android:id="@+id/asTextView03"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:background="#bbbbbb"
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:maxLines="1"/>
+
+    <bonc.demopractice_allkinsoff.adaptive.AdjustSpaceTextView
+        android:id="@+id/asTextView04"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:background="#bbbb"
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:maxLines="1"/>
+
+
+</LinearLayout>

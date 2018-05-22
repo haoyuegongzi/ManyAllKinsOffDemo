@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rlParent"
+    tools:context="bonc.demopractice_allkinsoff.scroll.SCrollActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btScroll"
+            android:text="测试ScrollBy"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btScrollTo"
+            android:text="测试ScrollTo"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btScrollReset"
+            android:text="Reset - Scroll"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvScroll"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Test ScrollTo \n Test ScrollBy"
+        android:gravity="center"
+        android:background="#93a5f4"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

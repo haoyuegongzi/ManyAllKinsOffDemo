@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="F:\AndroidStudioSpace\DemoPractice_AllKinsOff\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bc381bb61aa144975f970abce24c05edce7b2a9">
+        <dex dex="F:\AndroidStudioSpace\DemoPractice_AllKinsOff\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_c5ff4fbe986b0e0bc48ebde732c49136b56299a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\AndroidStudioSpace\DemoPractice_AllKinsOff\app\libs\realm-android-0.86.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5d712a222ac58d6bb5e04b1691f7748eab76a1fe">
+        <dex dex="F:\AndroidStudioSpace\DemoPractice_AllKinsOff\app\build\intermediates\transforms\dex\debug\folders\1000\2\realm-android-0.86.0_01a1a4a7b1713d7d2a5956c08714f4e4d9905cba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\AndroidStudioSpace\DemoPractice_AllKinsOff\app\libs\eventbus.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bce1c8d061ecc7d7664ae13bb5d29543ff93ca52">
+        <dex dex="F:\AndroidStudioSpace\DemoPractice_AllKinsOff\app\build\intermediates\transforms\dex\debug\folders\1000\2\eventbus_771ab471b3d54f2d32096b56335e5b7d1dd03454\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\AndroidStudioSpace\DemoPractice_AllKinsOff\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="F:\AndroidStudioSpace\DemoPractice_AllKinsOff\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_1f57283953b3153f0cf0cbfe6aa5678d35b4f865\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\AndroidStudioSpace\DemoPractice_AllKinsOff\app\libs\xcl-charts.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="123db96349684a0d29a139c7d2953bba27f2d25d">
+        <dex dex="F:\AndroidStudioSpace\DemoPractice_AllKinsOff\app\build\intermediates\transforms\dex\debug\folders\1000\2\xcl-charts_69c6ddbac89443ff37c29051c3fa7307b26f0703\classes.dex" />
+    </item>
+
+</items>

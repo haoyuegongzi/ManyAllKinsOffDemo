@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fccfcf"
+    tools:context="bonc.demopractice_allkinsoff.image.ImageViewActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:visibility="visible">
+
+        <Button
+            android:id="@+id/btSelect"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="选择图片"/>
+
+        <Button
+            android:id="@+id/btCut"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="剪切图片"/>
+        
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivDisplayImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp" />
+
+            <ImageView
+                android:id="@+id/ivScale"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/sunlu40"/>
+
+            <TextView
+                android:id="@+id/tvScale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="图形宽度240，图形高度160"/>
+
+            <SeekBar
+                android:id="@+id/sbScale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:max="300"
+                android:progress="120"/>
+
+            <TextView
+                android:id="@+id/tvTranslation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="0°"/>
+
+            <SeekBar
+                android:id="@+id/sbTranslatio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:max="360"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <ImageView
+                    android:id="@+id/ivImage00"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/view01"/>
+
+                <ImageView
+                    android:id="@+id/ivImage01"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="center"
+                    android:src="@mipmap/view01"
+                    android:layout_marginTop="5dp"/>
+
+                <ImageView
+                    android:id="@+id/ivImage02"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/view01"
+                    android:layout_marginTop="5dp"/>
+
+                <ImageView
+                    android:id="@+id/ivImage03"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerInside"
+                    android:src="@mipmap/view01"
+                    android:layout_marginTop="5dp"/>
+
+                <ImageView
+                    android:id="@+id/ivImage04"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/view01"
+                    android:layout_marginTop="5dp"/>
+
+                <ImageView
+                    android:id="@+id/ivImage05"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/view01"
+                    android:layout_marginTop="5dp"/>
+
+                <ImageView
+                    android:id="@+id/ivImage06"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="matrix"
+                    android:src="@mipmap/view01"
+                    android:layout_marginTop="5dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

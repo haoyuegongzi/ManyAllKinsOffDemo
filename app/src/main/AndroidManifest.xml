@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="bonc.demopractice_allkinsoff">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <uses-feature android:name="android.hardware.Camera"/>
+
+    <application
+        android:name=".traslate.TrasApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/laucher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".application.BaseActivity"
+            android:label="@string/title_activity_base"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".seekbar.SeekBarActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/SeekBar"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".expandablelistview.ExpandableActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/Expandable"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".datatime.DateTimePickerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/DateTime"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".charts.ChartsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/Charts"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".charts.SingleLineActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/SingleLine"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".listrecycler.ListRecyclerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/ListRecycler"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".recycler_recycler.Recycler_RecyclerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/Recycler_Recycler"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".charts.MoreLinesActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/MoreLines"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".charts.MoreBarsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/MoreBars"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".charts.HorizontalBarsActivity">
+        </activity>
+        <activity android:name=".mvip_thought01.view.MvpOneActivity">
+        </activity>
+        <activity android:name=".mvip_jump.LoginSuccessActivity">
+        </activity>
+        <activity android:name=".mvip_thought02.view.MvpTwoActivity">
+        </activity>
+        <activity android:name=".mvip_thought02.view.LoginSureActivity">
+        </activity>
+        <activity android:name=".canvas.CanvasActivity">
+        </activity>
+        <activity android:name=".textview.EditTextActivity">
+        </activity>
+        <activity
+            android:name=".permissions.ShapeActivity"
+            android:label="@string/title_activity_permissions"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".sdcard.SDcardActivity">
+        </activity>
+        <activity android:name=".spinner.SpinnerActivity">
+        </activity>
+        <activity android:name=".SelectorChapek.SelectorChapekActivity">
+        </activity>
+        <activity android:name=".Animation.MainAnimationActivity">
+        </activity>
+        <activity android:name=".Animation.InterpolatorActivity">
+        </activity>
+        <activity android:name=".Animation.AnimationActivity">
+        </activity>
+        <activity android:name=".Animation.ValueAnimatorActivity">
+        </activity>
+        <activity android:name=".Animation.SeniorAnimatorActivity">
+        </activity>
+        <activity android:name=".objectAnimator.ObjectAnimatorActivity">
+        </activity>
+        <activity android:name=".property.PropertyValuesHolderActivity">
+        </activity>
+        <activity android:name=".property.AnimatorSetActivity">
+        </activity>
+        <activity android:name=".animaote_xml.AnimateXMLActivity">
+        </activity>
+        <activity android:name=".layout_change.LayoutChangeActivity">
+        </activity>
+        <activity android:name=".viewpager.ViewPagerActivity">
+        </activity>
+        <activity android:name=".scroll.SCrollActivity">
+        </activity>
+        <activity android:name=".rx_java.RxJavaActivity">
+        </activity>
+        <activity android:name=".softinputmode.SoftInputModeActivity">
+        </activity>
+        <activity android:name=".rxjava_integrate.RxJavaIntegrateActivity">
+        </activity>
+        <activity android:name=".webview.WebViewActivity">
+        </activity>
+        <activity android:name=".mvip_jump.view.MvipActivity"/>
+        <activity android:name=".viewpager.pager_test.LoopStopActivity">
+        </activity>
+        <activity android:name=".timertask.TimerTaskActivity">
+        </activity>
+        <activity android:name=".viewpagerfragment.FragmentViewPagerActivity">
+        </activity>
+        <activity android:name=".click.ClickActivity">
+        </activity>
+        <activity android:name=".timertask.BaseActivity">
+        </activity>
+        <activity android:name=".text_marqque.TextViewMaqqueActivity">
+        </activity>
+        <activity android:name=".image.ImageViewActivity">
+        </activity>
+        <activity android:name=".traslate.TraslateActivity">
+        </activity>
+        <activity android:name=".traslate.AnotherActivity">
+        </activity>
+        <activity android:name=".imageswicher.ImageSwicherActivity">
+        </activity>
+        <activity android:name=".scrollview.VerticalScrollViewActivity">
+        </activity>
+        <activity android:name=".pincker.PickerActivity">
+        </activity>
+        <activity android:name=".lifecycle.LifeCycleActivity">
+        </activity>
+        <activity
+            android:name=".lifecycle.OtherActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".view.DetecteViewActivity"
+            android:label="@string/title_activity_detecte_view"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".view.ScrollerActivity">
+        </activity>
+        <activity android:name=".viewpager.fragment.LoadFragmentActivity">
+        </activity>
+        <activity android:name=".intent.IntentActionActivity">
+        </activity>
+        <activity android:name=".intent.TakePictureActivity">
+        </activity>
+        <activity android:name=".intent.ImageActivity">
+        </activity>
+        <activity android:name=".adaptive.AdaptiveSizeActivity">
+        </activity>
+        <activity android:name=".popup.PopupWindowActivity">
+        </activity>
+    </application>
+
+</manifest>

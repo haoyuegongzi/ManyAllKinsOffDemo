@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_more_lines"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="bonc.demopractice_allkinsoff.charts.MoreLinesActivity">
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/moreLineCharts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+
+        <SeekBar
+            android:id="@+id/sbBarCount"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:progress="25"
+            android:max="80"/>
+
+        <TextView
+            android:id="@+id/tvBarCount"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:text="20"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+
+        <SeekBar
+            android:id="@+id/sbBarMax"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:progress="25"
+            android:max="120"/>
+
+        <TextView
+            android:id="@+id/tvBarMax"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:text="20"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>

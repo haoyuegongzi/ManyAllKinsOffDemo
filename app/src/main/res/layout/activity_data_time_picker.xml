@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_data_time_picker"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etDatapicker"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:background="#ffdfff"
+        android:hint="选择时间"/>
+
+    <EditText
+        android:id="@+id/etTimepicker"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:background="#ffdfff"
+        android:hint="选择时间"/>
+
+    <TextView
+        android:id="@+id/tvMonthDay"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="#88aaff"/>
+
+</LinearLayout>

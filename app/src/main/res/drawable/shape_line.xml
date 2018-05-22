@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="line">
+
+    <!-- 边框的宽度和颜色-->
+    <stroke
+        android:width="3dp"
+        android:color="@android:color/holo_purple"
+        android:dashGap="5dp"
+        android:dashWidth="10dp"/>
+
+    <size
+        android:height="5dp"/>
+</shape>

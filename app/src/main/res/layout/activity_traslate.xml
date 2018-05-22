@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="bonc.demopractice_allkinsoff.traslate.TraslateActivity">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#fb0cff"
+        android:hint="请输入姓名"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/etCity"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#07880f"
+        android:layout_margin="10dp"
+        android:hint="请输入城市"   />
+
+    <Button
+        android:id="@+id/btStart"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:text="跳    转"/>
+
+</LinearLayout>

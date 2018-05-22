@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bonc.demopractice_allkinsoff.Animation.ValueAnimatorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/btStartAnim"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:text="测试ViewAnimation"/>
+
+        <Button
+            android:id="@+id/btValueAnimator"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:layout_toRightOf="@+id/btStartAnim"
+            android:text="ValueAnimator-Start"/>
+
+        <Button
+            android:id="@+id/btValueAnimatorCancel"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:layout_toRightOf="@+id/btStartAnim"
+            android:text="ValueAnimator-Cancel"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTestObject"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="动画测试对象"
+        android:gravity="center_vertical"
+        android:background="#ffff00"/>
+
+</RelativeLayout>

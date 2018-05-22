@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="bonc.demopractice_allkinsoff.Animation.SeniorAnimatorActivity">
+
+    <bonc.demopractice_allkinsoff.objectAnimator.MyPointView
+        android:id="@+id/flAnimator"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#4c5df2"
+        android:layout_marginTop="50dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/btValueAnimator"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_toRightOf="@+id/btStartAnim"
+            android:layout_weight="1"
+            android:text="ValueAnimator-Start"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btValueAnimatorCancel"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_toRightOf="@+id/btStartAnim"
+            android:layout_weight="1"
+            android:text="ValueAnimator-Cancel"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btObjectAnimator"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_toRightOf="@+id/btStartAnim"
+            android:layout_weight="1"
+            android:text="Alpha"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btObjectAnimatorScale"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_toRightOf="@+id/btStartAnim"
+            android:layout_weight="1"
+            android:text="Scale"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btObjectAnimatorRotation"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_toRightOf="@+id/btStartAnim"
+            android:layout_weight="1"
+            android:text="Rotation"
+            android:textAllCaps="false"/>
+        b
+        <Button
+            android:id="@+id/btObjectAnimatorTranslation"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_toRightOf="@+id/btStartAnim"
+            android:layout_weight="1"
+            android:text="Translate"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+</LinearLayout>

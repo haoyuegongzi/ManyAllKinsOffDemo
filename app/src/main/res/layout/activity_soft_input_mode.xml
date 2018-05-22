@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/llLoginView"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FAFAFA"
+              android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#8fE095"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp">
+
+        <EditText
+            android:id="@+id/etuUerName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:hint="请输入用户名"
+            android:inputType="text"
+            android:maxLength="18"
+            android:singleLine="true"
+            android:textColor="#808080"
+            android:background="@null"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/etUserPwd"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:hint="请输入密码"
+            android:inputType="numberPassword"
+            android:maxLength="20"
+            android:singleLine="true"
+            android:textColor="#808080"
+            android:background="@null"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/cbLoginCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="记住用户名"
+            android:textColor="#808080"
+            android:textSize="15sp"
+            android:layout_marginLeft="15dp"/>
+
+        <Button
+            android:id="@+id/btLogin"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/login_buton"
+            android:gravity="center"
+            android:text="立 即 登 录"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:fontFamily="微软雅黑"/>
+    </LinearLayout>
+
+</LinearLayout>

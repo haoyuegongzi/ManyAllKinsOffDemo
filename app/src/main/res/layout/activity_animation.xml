@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_scale"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="bonc.demopractice_allkinsoff.Animation.AnimationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp">
+
+        <TextView
+            android:id="@+id/tvScale"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:background="#9abcde"
+            android:gravity="center"
+            android:text="测试Scale"/>
+
+        <TextView
+            android:id="@+id/tvAlpha"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:background="#edcba9"
+            android:gravity="center"
+            android:text="测试Alpha"/>
+        <TextView
+            android:id="@+id/tvRotate"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:background="#5533"
+            android:gravity="center"
+            android:text="测试Rotate"/>
+
+        <TextView
+            android:id="@+id/tvTranslate"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:background="#77FF"
+            android:gravity="center"
+            android:text="测试Trans"/>
+
+        <TextView
+            android:id="@+id/tvSet"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:background="#9292f0"
+            android:gravity="center"
+            android:text="测试Set"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ivScale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/shuchang"/>
+
+    </RelativeLayout>
+</LinearLayout>

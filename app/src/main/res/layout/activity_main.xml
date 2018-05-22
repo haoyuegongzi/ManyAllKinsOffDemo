@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="bonc.demopractice_allkinsoff.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="3dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btSeekBar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="SeekBarPractice"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+
+                <Button
+                    android:id="@+id/btExpandable"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="Expandable"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+
+                <Button
+                    android:id="@+id/btDataTime"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="DataTimePicker"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="3dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btChartsLines"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="ChartsLines"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+
+                <Button
+                    android:id="@+id/btSingleLineLines"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="SingleLine"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+
+                <Button
+                    android:id="@+id/btListRecycler"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="List_recycler"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="3dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btRecycler_Recycler"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:onClick="Recycler"
+                    android:text="Cycler/Cycler"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+
+                <Button
+                    android:id="@+id/btMoreLines"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="MoreLines"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+
+                <Button
+                    android:id="@+id/btMoreBars"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="MoreBars"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="3dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btHorizontalBars"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="Horiz-BarChart"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+
+                <Button
+                    android:id="@+id/btMvpOne"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="MvpOne"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+
+                <Button
+                    android:id="@+id/btMvpTwo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="MvpTwo"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="3dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btAndroidCanvas"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="AndroidCanvas"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+
+                <Button
+                    android:id="@+id/btEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="EditText"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+
+                <Button
+                    android:id="@+id/btPermissions"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="Shape各种样式"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="3dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btSpinner"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="btSpinner"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+
+                <Button
+                    android:id="@+id/btMainAnimation"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="Animation"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+
+                <Button
+                    android:id="@+id/btViewPager"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="ViewPager"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="3dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btSCroll"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="SCrollActivity"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+
+                <Button
+                    android:id="@+id/btRxJava"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="RxJavaActivity"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+
+                <Button
+                    android:id="@+id/btSoftInputMode"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="键盘遮挡输入框"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="3dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btWebView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="WebViewActivity"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+
+                <Button
+                    android:id="@+id/btJumpMvp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="MvipActivity"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+
+                <Button
+                    android:id="@+id/btTimerTask"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="TimerTask"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="3dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btFragmentViewPager"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="FragmentViewPager"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+
+                <Button
+                    android:id="@+id/btClick"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="ClickActivity"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+
+                <Button
+                    android:id="@+id/btTextViewMaqque"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="TextView跑马灯"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="3dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btImageView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="ImageView"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+
+                <Button
+                    android:id="@+id/btTraslate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="Traslate"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+
+                <Button
+                    android:id="@+id/btImageSwicher"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="ImageSwicher"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="3dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btVerticalScrollView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="VerScrollView"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+
+                <Button
+                    android:id="@+id/btPicker"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="PickerActivity"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+
+                <Button
+                    android:id="@+id/btLifeCycle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="LifeCycle"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="3dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btDetecteView"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="DetecteView"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+
+                <Button
+                    android:id="@+id/btScroller"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="Scroller"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+
+                <Button
+                    android:id="@+id/btLoadFragment"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="LoadFragment"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="3dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btIntent"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="Intent"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+
+                <Button
+                    android:id="@+id/btAdaptiveSize"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="AdaptiveSize"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+
+                <Button
+                    android:id="@+id/btPopupWindow"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="PopupWindow"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="3dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btIntegrate"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:text="RxJavaIntegrate"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

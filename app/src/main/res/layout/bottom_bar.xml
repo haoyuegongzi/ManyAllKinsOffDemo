@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/rlbottom"
+              android:layout_width="match_parent"
+              android:layout_height="60dp"
+              android:layout_alignParentBottom="true"
+              android:background="@drawable/bottom_bar"
+              android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/llweixin"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:descendantFocusability="beforeDescendants"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ibweixin"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:background="@drawable/tab_weixin_pressed"
+            android:scaleType="fitCenter"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/tvweixn"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="首页"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llfriend"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:descendantFocusability="beforeDescendants"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ibfriend"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="@drawable/tab_find_frd_normal"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:id="@+id/tvfriend"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="公告"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llcontact"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:descendantFocusability="beforeDescendants"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ibcontact"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="@drawable/tab_address_normal"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:id="@+id/tvfcontact"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="我的"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llsetting"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:descendantFocusability="beforeDescendants"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ibsetting"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="@drawable/tab_settings_normal"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:id="@+id/tvsetting"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="设置"/>
+    </LinearLayout>
+</LinearLayout>

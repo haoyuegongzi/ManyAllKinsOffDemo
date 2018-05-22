@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="bonc.demopractice_allkinsoff.intent.TakePictureActivity">
+
+    <Button
+        android:id="@+id/btPhotoDeal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shape_button"
+        android:text="拍照或从相册获取图片"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="16sp"
+        android:textAllCaps="false"/>
+
+
+    <ImageView
+        android:id="@+id/ivIntent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

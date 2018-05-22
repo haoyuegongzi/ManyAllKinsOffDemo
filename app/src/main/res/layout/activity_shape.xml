@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="bonc.demopractice_allkinsoff.permissions.ShapeActivity">
+    <!--
+    1、上下的线可以通过:sLineShow 设置;有四种显示方式 none，top，bottom，both
+    2、通过设置 sUseRipple=true 开启水波效果
+    -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:text="测试shape的格式"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:background="@drawable/shape_button"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:text="测试shape的背景渐变功能"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:background="@drawable/shape_styles"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:text="测试shape的背景圆与椭圆功能"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:background="@drawable/shape_oval"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:text="测试shape画分割线功能"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:background="@drawable/shape_line"
+        android:layerType="software"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="测试shape的ring"
+            android:gravity="center"
+            android:layout_weight="1"
+        android:layout_margin="2dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

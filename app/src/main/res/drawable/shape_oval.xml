@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="oval">
+
+    <!-- 填充色 有gradient后，该属性失效-->
+    <solid
+        android:color="#0000ff"/>
+
+    <!-- 边框的宽度和颜色,在本处，stroke属性时最外圈的，一般情况下没有该属性-->
+<!--    <stroke
+        android:color="@android:color/holo_purple"
+        android:width="3dp"/>-->
+
+    <padding
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp"/>
+
+    <gradient
+        android:type="linear"
+        android:gradientRadius="30dp"
+        android:startColor="#ff0000"
+        android:endColor="#ff00ff"
+        android:centerColor="#ffffff"
+        android:angle="45"/>
+
+    <size
+        android:width="40dp"
+        android:height="40dp"/>
+</shape>

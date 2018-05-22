@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">各种Demo练习集成</string>
+    <string name="SeekBar">SeekBar练习</string>
+    <string name="Expandable">ExpandableListView练习</string>
+    <string name="DateTime">DateTime练习</string>
+    <string name="Charts">Charts练习</string>
+    <string name="SingleLine">SingleLine练习</string>
+    <string name="ListRecycler">List套Recycler练习</string>
+    <string name="Recycler_Recycler">Recycler套Recycler练习</string>
+    <string name="MoreLines">多条Lines练习</string>
+    <string name="MoreBars">多条Bars练习</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="textString">本SeekBar的进度值是：</string>
+    <string name="title_activity_permissions">PermissionsActivity</string>
+    <string name="title_activity_detecte_view">DetecteViewActivity</string>
+</resources>

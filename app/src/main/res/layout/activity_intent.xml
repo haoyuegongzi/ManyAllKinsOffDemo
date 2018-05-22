@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:keepScreenOn="true"
+    tools:context="bonc.demopractice_allkinsoff.intent.IntentActionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btCall"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/shape_button"
+            android:text="打电话"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/btMap"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/shape_button"
+            android:text="地图"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/btHtml"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/shape_button"
+            android:text="查看网页"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btSendEmail"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/shape_button"
+            android:text="发送带附件的邮件"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/btCalendar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.5"
+            android:background="@drawable/shape_button"
+            android:text="日历"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/btQuery"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/shape_button"
+            android:text="是否有App接收Intent"
+            android:textAllCaps="false"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btForResult"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/shape_button"
+            android:text="读取联系人"
+            android:textSize="16sp"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btTakePictrue"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/shape_button"
+            android:text="拍照"
+            android:textSize="16sp"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btPhotoAlbum"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/shape_button"
+            android:text="从相册获取"
+            android:textSize="16sp"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btPhotoDeal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shape_button"
+        android:text="拍照或从相册获取图片"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:textAllCaps="false"/>
+
+
+    <ImageView
+        android:id="@+id/ivIntent"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>

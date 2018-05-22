@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlParent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="bonc.demopractice_allkinsoff.popup.PopupWindowActivity">
+
+    <TextView
+        android:id="@+id/tvShowPopupDown"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:text="tvShowPopupDown"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="#ffb1a2"/>
+
+    <TextView
+        android:id="@+id/tvShowPopupLeft"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:text="tvShowPopupLeft"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="#ffb1a2"/>
+
+    <TextView
+        android:id="@+id/tvShowPopupRight"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:text="tvShowPopupRight"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="#ffb1a2"/>
+
+    <TextView
+        android:id="@+id/tvShowPopupUp"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:text="tvShowPopupUp"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="#ffb1a2"/>
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#111111"
+        android:layout_gravity="bottom"/>
+</LinearLayout>

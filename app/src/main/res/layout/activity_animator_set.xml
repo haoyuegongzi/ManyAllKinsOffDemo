@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="bonc.demopractice_allkinsoff.property.AnimatorSetActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btAnimatorSetStart"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="AnimatorSet启动"
+            android:textAllCaps="false"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/btAnimatorSetCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="AnimatorSet取消"
+            android:textAllCaps="false"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/tvAnimator01"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="动画集合1"
+            android:gravity="center"
+            android:layout_marginLeft="40dp"
+            android:background="#5ed9f0"/>
+
+        <TextView
+            android:id="@+id/tvAnimator02"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="动画集合2"
+            android:gravity="center"
+            android:layout_marginLeft="80dp"
+            android:background="#428ddd"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
